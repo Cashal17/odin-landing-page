@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+body {
+    font-family: 'Roboto';
+    min-height: 100vh;
+    margin: 0;
+}
+
+.left-header,
+.right-header {
+    display: flex;
+    flex-direction: column;
+    padding: 16px 0 100px;
+    gap: 100px;
+}
+
+.right-header {
+    align-items: flex-end; 
+}
+
+.top-right-links {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+    display: flex;
+    gap: 16px;
+}
+
+.top-right-links a,
+.hero-text,
+.footer {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.top-of-page,
+.footer {
+    background-color: #1F2937;
+}
+
+.footer {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo,
+.hero-main {
+    color: #F9FAF8;
+    font-weight: 800;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.hero-main {
+    font-size: 48px;
+}
+
+.hero-image {
+    display: flex;
+    justify-content: space-around;
+}
+
+.placeholder {
+    width: 550px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+    background-color: dimgrey;
+}
+
+.hero {
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: flex-start;
+}
+
+.top-of-page {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 10px;
+    width: 150px;
+    padding: 8px 0;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+#bottom-button {
+    border: 3px #E5E7EB solid;
+}
+
+.info-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0 100px;
+    gap: 50px;
+}
+
+.info-cards  {
+    display: flex;
+    gap: 50px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+    gap: 5px;
+    text-align: center;
+    color: #1F2937;
+}
+
+.empty-card {
+    height: 150px;
+    border-radius: 10px;
+    border: 4px #3882F6 solid;
+}
+
+.card-text {
+    margin: 0;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    text-align: left;
+    width: 825px;
+    
+}
+
+.quote-author {
+    font-size: 24px;
+    font-weight: 800;   
+    width: 825px;
+    text-align: right;
+}
+
+.signup-section {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+}
+
+.signup-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 150px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    width: 825px;
+}
+
+.call-to-action {
+    color: #F9FAF8;
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.product-text {
+    color: #F9FAF8;
+    font-size: 16px;
+}
+
